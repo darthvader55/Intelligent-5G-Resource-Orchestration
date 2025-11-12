@@ -1,5 +1,6 @@
 # Codebase for "Time-Aware Generative Adversarial and Temporal Convolutional Learning for Intelligent 5G Resource Orchestration"
-This repository contains an overview and implementation summary of my Master's thesis, which was submitted in partial fulfilment of the requirements for the Master of Science in Computing in Big Data Analytics and Artificial Intelligence at Atlantic Technological University - Donegal, Ireland.
+This repository contains an overview and implementation summary of my Masters' thesis, which was submitted in partial fulfilment of the requirements for the Master of Science in Computing in Big Data Analytics and Artificial Intelligence at Atlantic Technological University - Donegal, Ireland.
+
 
 Author: Linus Ngatia
 
