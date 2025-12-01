@@ -30,6 +30,7 @@ With rapid technological advancements and the digitisation of various sectors, t
 The proposed framework enables intelligent 5G resource orchestration through a hybrid generative-discriminative architecture. It comprises three core modules: (1) a TimeGAN-based temporal data synthesizer, (2) a semi-supervised sequence labelling module, and (3) a forecasting model based on a Dilated TCN. As shown in Figure 1, the system uses real time-series data to train a TimeGAN model that captures complex temporal dependencies and generates realistic synthetic sequences. These sequences are then passed through a semi-supervised learning module to produce labelled training data, which are subsequently used to train a TCN model for robust forecasting under dynamic 5G environments.
 </details>
 
+--
 
 ## Code explanation
 (1) implementation.ipynb
