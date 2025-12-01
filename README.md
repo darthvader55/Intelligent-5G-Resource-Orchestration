@@ -7,7 +7,7 @@ Author: Linus Ngatia
 Contact: linusngatia434@gmail.com
 
 ## Purpose and Research Question
-The purpose of this research is to develop an intelligent resource orchestration framework that maximises QoE for diverse 5G application types and services by accurately forecasting network demands. Leveraging an architecture that integrates a Time-series Generative Adversarial Network (TimeGAN) and a Temporal Convolutional Network (TCN)-based forecasting model, this work seeks to provide a robust framework for dynamic resource orchestration in 5G ecosystems.
+The purpose of this research is to develop an intelligent resource orchestration framework that maximises Quality of Experience (QoE) for diverse 5G application types and services by accurately forecasting network demands. Leveraging an architecture that integrates a Time-series Generative Adversarial Network (TimeGAN) and a Temporal Convolutional Network (TCN)-based forecasting model, this work seeks to provide a robust framework for dynamic resource orchestration in 5G ecosystems.
 
 Accordingly, this dissertation aims to address the following research questions:
 
