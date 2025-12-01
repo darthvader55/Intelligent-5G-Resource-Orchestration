@@ -19,7 +19,7 @@ With rapid technological advancements and the digitisation of various sectors, t
 ## Proposed Framework
 
 <p align="center">
-  <img src="images/proposed_framework.png" alt="Time-Aware Generative Adversarial and Temporal Convolutional Learning Framework" width="600"/>
+  <img src="images/proposed_framework.png" alt="Time-Aware Generative Adversarial and Temporal Convolutional Learning Framework" width="900"/>
   <br>
   <em>Figure 1: Time-Aware Generative Adversarial and Temporal Convolutional Learning Framework. (S1) Collection of network traffic data and subsequent structuring using a sliding-window mechanism; (S2) Generation of synthetic data using TimeGAN; (S3) Labelling of the synthetic data; and (S4) TCN-based forecasting model.</em>
 </p>
