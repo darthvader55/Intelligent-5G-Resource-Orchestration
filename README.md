@@ -8,13 +8,15 @@ Contact: linusngatia434@gmail.com
 ## Overview
 This research develops an intelligent resource orchestration framework that maximises Quality of Experience (QoE) for diverse 5G application types and services by accurately forecasting network demands. Leveraging an architecture that integrates a Time-series Generative Adversarial Network (TimeGAN) and a Temporal Convolutional Network (TCN)-based forecasting model, the work provides a robust framework for dynamic resource orchestration in 5G ecosystems.
 
-## Full Abstract
+## Abstract
 <details>
   <summary><strong>Click to expand</strong></summary>
 With rapid technological advancements and the digitisation of various sectors, the demand for connectivity has surged, driving exponential growth in mobile communication networks and a wide range of applications with diverse requirements. Fifth-generation (5G) mobile networks have shown strong potential in meeting these demands. However, the highly dynamic and heterogeneous nature of 5G environments makes resource management and orchestration particularly challenging, and traditional approaches often fail to meet the strict Quality of Service (QoS) requirements in 5G networks. Consequently, recent studies have explored the use of Artificial Intelligence (AI) algorithms to enable intelligent orchestration of network resources and ensure a high Quality of Experience (QoE) for users. Despite this progress, AI-driven approaches face critical limitations, primarily stemming from the scarcity and lack of diversity in training data. Issues such as temporal drift and privacy concerns restrict the availability of large, representative datasets. As a result, models trained on such limited data often fail to generalise effectively in real-world 5G environments, leading to inefficient orchestration and reduced QoE for end users. This thesis addresses these challenges by proposing a time-aware generative–adversarial and temporal convolutional learning framework for intelligent and accurate 5G resource orchestration. The framework incorporates a Time-series Generative Adversarial Network (TimeGAN) model for synthetic time-series data generation, effectively capturing temporal dependencies in network traffic to enhance data diversity and consistency. This synthetic data improves the forecasting accuracy and generalisation capability of a Temporal Convolutional Network (TCN) model, ultimately supporting higher QoE in dynamic 5G environments. Comparative experiments between models trained solely on real data and those trained on real data augmented with the synthetic data demonstrate that the proposed TimeGAN–TCN framework significantly improves forecasting performance, with Mean Square Error (MSE) reducing from 0.0412 to 0.0167, Mean Average Error (MAE) from 0.1638 to 0.1069, and Dynamic Time Warping distance (DTW) from 0.9528 to 0.6526.
 </details>
 
 --
+
+
 ## Code explanation
 (1) implementation.ipynb
   - This is the main notebook and it provides a user-guide for the framework's implementation
