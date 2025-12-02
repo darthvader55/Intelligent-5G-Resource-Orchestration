@@ -69,6 +69,7 @@ This notebook serves as a **step-by-step user guide**, showing how to use the ot
 ## Contact
 
 For questions or collaborations, feel free to reach out:
+
 **Email:** linusngatia434@gmail.com
 
 
