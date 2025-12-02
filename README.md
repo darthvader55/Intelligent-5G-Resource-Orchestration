@@ -32,33 +32,44 @@ The proposed framework enables intelligent 5G resource orchestration through a h
 
 --
 
-## Code explanation
-(1) implementation.ipynb
-  - This is the main notebook and it provides a user-guide for the framework's implementation
-    
-(2) data_loading.py
+## Code Implementation
+The main implementation of this framework is provided in [`implementation.ipynb`](codefiles/implementation.ipynb).
+This notebook serves as a **step-by-step user guide**, showing how to use the other python modules to reproduce the experiments and generate results.
 
-  - Transforms and preprocesses raw 5G network data to multivariate sequences suitable for TimeGAN and sequential models' training and evaluation.
+💡 **Tip:** Start with this notebook to understand the workflow, as it imports and orchestrates all other scripts.
 
-(3) timegan.py
+### Python Modules
+
+(1) [`data_loading.py`](codefiles/data_loading.py)
+
+  - Transforms and preprocesses raw 5G network data into multivariate sequences suitable for TimeGAN and sequential models' training and evaluation.
+
+(2) [`timegan.py`](codefiles/timegan.py)
 
   - Training and development of the TimeGAN model, and subsequent generation of synthetic network data.
     
-(4) qualitative.py
+(3) [`qualitative.py`](codefiles/qualitative.py)
 
-  - Qualitative analysis of the synthetic data generated using:
+  - Performs **qualitative analysis** of the synthetic data using:
     
     (i) t-Distributed Stochastic Neighbour Embedding
     
     (ii) Temporal Quality Comparison Plots
 
-(5) quantitative.py
+(4) [`quantitative.py`](codefiles/quantitative.py)
 
-  - Quantitative analysis of the synthetic data generated through its effectiveness in enhancing downstream predictive tasks of:
+  - Performs **quantitative analysis** to evaluate the effectiveness of the synthetic data in enhancing downstream predictive tasks of:
     
     (i) Temporal Convolutional Network (TCN): Main sequential model used in this research
     
     (ii) Recurrent Neural Network architectures: BiLSTM, standard RNN, and GRU
+
+---
+
+## Contact
+
+For questions or collaborations, feel free to reach out:
+**Email:** linusngatia434@gmail.com
 
 
 
