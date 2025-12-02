@@ -46,7 +46,7 @@ This notebook serves as a **step-by-step user guide**, showing how to use the ot
 
 (2) [`timegan.py`](codefiles/timegan.py)
 
-  - Training and development of the TimeGAN model, and subsequent generation of synthetic network data.
+  - Development and training of the TimeGAN model, and subsequent generation of synthetic network data.
     
 (3) [`qualitative.py`](codefiles/qualitative.py)
 
