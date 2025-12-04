@@ -1,3 +1,6 @@
+"""Time-Aware Generative Adversarial and Temporal Convolutional Learning for Intelligent 5G Resource Orchestration
+
+Code author: Linus Ngatia (linusngatia434@gmail.com)"""
 
 import torch
 import numpy as np
