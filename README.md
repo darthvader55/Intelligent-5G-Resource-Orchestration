@@ -33,6 +33,7 @@ The proposed framework enables intelligent 5G resource orchestration through a h
 --
 
 ## Code Implementation
+### [`implementation.ipynb`](codefiles/implementation.ipynb)
 The main implementation of this framework is provided in **[`implementation.ipynb`](codefiles/implementation.ipynb)**.
 This notebook serves as a **step-by-step user guide**, showing how to use the other python modules to reproduce the experiments and generate results.
 
