@@ -53,7 +53,7 @@ This notebook serves as a **step-by-step user guide**, showing how to use the ot
 
   - Performs **qualitative analysis** of the synthetic data using:
     
-    (i) t-Distributed Stochastic Neighbour Embedding
+    (i) t-Distributed Stochastic Neighbour Embedding (t-SNE)
     
     (ii) Temporal Quality Comparison Plots
 
